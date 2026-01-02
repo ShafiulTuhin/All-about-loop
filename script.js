@@ -3,4 +3,5 @@ const minNumber = number[0];
 
 for (number; number < number.length - 1; number++) {
   console.log(number);
+  console.log("Commit");
 }
