@@ -8,7 +8,24 @@ for (i = 1; i <= 3; i++) {
 }
 
 //--> Reverse name
-let name = "Tuhin";
-let reversedName = name.split("").reverse().join("");
+let nam = "Adiyaan";
+const split = nam.split("");
+console.log(split);
 
-console.log(reversedName);
+const reverse = split.reverse();
+console.log(reverse);
+
+const join = reverse.join("");
+console.log(join);
+// --> In one line
+const reverseName = nam.split("").reverse().join("");
+console.log(reverseName);
+
+// --? Multiplier
+
+const number = +prompt("Enter the number");
+
+console.log(`${number}'s Multipication`);
+for (i = 1; i < 11; i++) {
+  console.log(`${number} x ${i} = ${number * i} `);
+}
