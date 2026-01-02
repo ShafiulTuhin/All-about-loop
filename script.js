@@ -1,7 +1,8 @@
-let number = [25, 100, 69, 13, 11, 89, 74];
-const minNumber = number[0];
+// --> Nested loop
 
-for (number; number < number.length - 1; number++) {
-  console.log(number);
-  console.log("Commit");
+for (i = 1; i <= 3; i++) {
+  console.log(`************Gym part - ${i}***********`);
+  for (j = 1; j <= 5; j++) {
+    console.log(`Do exercise number - ${j} in the morning`);
+  }
 }
